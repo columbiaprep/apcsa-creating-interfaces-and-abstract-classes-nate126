@@ -1,3 +1,5 @@
+//provides modifiers for different attributes
+
 public interface StatModifiers {
     int getStrMod()
     int getDexMod()

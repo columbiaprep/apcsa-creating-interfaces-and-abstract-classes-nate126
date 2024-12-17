@@ -1,3 +1,5 @@
+//Adventurer class represents a playable character in the game
+
 public class Adventurer extends Entity {
     private String name;
     private int maxHP;

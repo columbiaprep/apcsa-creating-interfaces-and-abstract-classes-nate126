@@ -1,3 +1,5 @@
+//represents the attributes of game character or entity
+
 public class Stats {
     private String name;
     private int maxHP;

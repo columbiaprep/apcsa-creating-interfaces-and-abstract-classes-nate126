@@ -1,4 +1,7 @@
 // Ryder L
+
+//represents ranged weapons and extends the Weapon class
+
 public class RangeWeapons extends Weapon{
     //  private String name;
     private int range;

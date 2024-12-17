@@ -1,5 +1,5 @@
 // Matthew D
-public class MeleeWeapon {
+public class MeleeWeapon extends Armor {
     private String type;
     private int strength;
     private int damage;
@@ -31,6 +31,12 @@ public class MeleeWeapon {
     public String getType(){
         return this.type;
     }
+
+    public void swing(){
+
+
+    }
+
 
     public void setType(String type){
         this.type = type;

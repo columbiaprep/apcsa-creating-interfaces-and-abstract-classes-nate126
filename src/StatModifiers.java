@@ -1,10 +1,10 @@
-public class StatModifiers {
-    private int strMod;
-    private int dexMod;
-    private int conMod;
-    private int wisMod;
-    private int chaMod;
-
+public interface StatModifiers {
+    int getStrMod()
+    int getDexMod()
+    int getConMod()
+    int getIntMod()
+    int getWisMod()
+    int getChaMod()
 
 
 }
